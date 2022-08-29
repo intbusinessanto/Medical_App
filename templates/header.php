@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!isset ($_SESSION['usuLogin'])){
+if(!empty ($_SESSION['usuLogin'])){
     header('Location:../index.php');
 }
 ?>
